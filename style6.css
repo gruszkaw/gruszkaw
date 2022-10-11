@@ -1,0 +1,59 @@
+#linie
+{
+border-style: dashed;
+border-color: rgb(7, 7, 92);
+background-color: rgb(143, 177, 228);
+border-radius: 10px;
+width: 300px;
+height: 35px;
+text-align: center;
+font-size: 30px;
+padding: 5px;
+border-width: 7px;
+}
+#kropki
+{
+    border-style: dotted;
+    border-color: rgb(7, 7, 92);
+    background-color: rgb(143, 177, 228);
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 40px;
+    border-width: 5px;
+}
+#znak
+{
+background-color: white;
+width: 250px;
+height: 250px;
+justify-content: left;
+align-items: center;
+display: flex;
+margin-top: 40px;
+}
+
+#kolo
+{
+background-color: red;
+border-radius: 250px;
+width: 250px;
+height: 250px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+
+#prostokat
+{
+background-color: white;
+width: 200px;
+height: 40px;
+justify-content: center;
+align-items: center;
+position: relative;
+}
