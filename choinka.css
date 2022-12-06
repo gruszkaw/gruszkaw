@@ -1,0 +1,94 @@
+header {
+    background-color: rgb(19, 71, 26);
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    color:bisque;
+    float: left;
+    line-height: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+body {
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.left {
+    float: left;
+    background-color: #bb5a57;
+    color: #200505;
+    height: 500px;
+    width: 30%;
+}
+
+.tree {
+    float: left;
+    background-color: bisque;
+    width: 40%;
+    height: 500px;
+    display: grid;
+}
+img{
+    place-self: center;
+    cursor: pointer;
+}
+
+.right {
+    float: left;
+    background-color: #bb5a57;
+    color: #200505;
+    height: 500px;
+    width: 30%;
+    display: grid;
+}
+
+table {
+    border-collapse: collapse;
+    cursor: crosshair;
+    margin-top: 40%;
+    float: right;
+    margin-right: 35%;
+    text-align: center;
+
+}
+
+th {
+    background-color: #70ad47;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+td {
+    background-color:  #d5e3cf;
+    color: #385723;
+    border: 2px solid #ffffff;
+}
+
+p{
+    background-color: rgb(247, 233, 217);
+    color: #380706;
+    border: 2px solid #380706;
+    place-self: center;
+    width: 300px;
+    cursor: help;
+    padding: 2%;
+}
+
+footer {
+    background-color: rgb(19, 71, 26);
+    height: 60px;
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    color:bisque;
+    float: left;
+    line-height: 10px;
+}
+ 
+h2 {
+    margin-right: 40px;
+}
