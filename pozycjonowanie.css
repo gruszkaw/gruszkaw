@@ -1,0 +1,150 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0b1f08;
+    font-size: 3.5vh;
+    background-color: rgb(127, 168, 137);
+}
+
+.str1, .str2, .str3, .str4{
+    text-align: center;
+    background-color: #d4e2c3e0;
+    height: 40vh;
+    width: 40vh;
+    display: grid;
+    float: left;
+    margin-left: 5vh;
+}
+
+.pole{
+    height: 20vh;
+    width: 20vh;
+    justify-self: center;
+}
+
+.czer1{
+    background-color: red;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 50%;
+}
+
+.czar1{
+    background-color: black;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 50%;
+}
+
+.czer2{
+    background-color: red;
+    height: 10vh;
+    width: 10vh;
+}
+
+.czar2{
+    background-color: black;
+    height: 10vh;
+    width: 10vh;
+}
+
+.czer1, .czar2{
+    float: left;
+}
+
+.czar1, .czer2{
+    float:right;
+}
+
+.tlo{
+    margin-top: 20%;
+    justify-self:center;
+    height: 25vh;
+    width: 30vh;
+    background-color: rgb(6, 131, 10);
+    display: grid;
+}
+
+.nieb{
+    height: 15vh;
+    width: 20vh;
+    background-color: rgb(44, 44, 85);
+    align-self: center;
+    justify-self: center;
+}
+
+.or{
+    height: 10vh;
+    width: 10vh;
+    background-color: orange;
+    align-self: flex-start;
+
+}
+
+.back{
+    justify-self: center;
+    align-self: center;
+    width: 27vh;
+    height: 27vh;
+    display: grid;
+    grid-template-columns: 9vh 9vh 9vh;
+    grid-row: 9vh 9vh 9vh;
+}
+
+.a1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+.a2{
+    background-color: darkblue;
+    border: 2px solid black;
+}
+.a3{
+    background-color: red;
+    border: 2px solid black;
+}
+.a4{
+    background-color: purple;
+    border: 2px solid black;
+}
+.a5{
+    background-color: green;
+    border: 2px solid black;
+}
+
+.tl{
+    display: flex;
+}
+
+.roz{
+    background-color: rgb(189, 98, 222);
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    position: absolute;
+    right:30vh;
+    top: 25%;
+    border: 2px solid black;
+}
+
+.red{
+    background-color: rgb(255, 0, 0);
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    position: absolute;
+    right:25vh;
+    top: 30%;
+    border: 2px solid black;
+}
+
+.fiolet{
+    background-color: rgb(209, 72, 145);
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    position: absolute;
+    right:20vh;
+    top: 35%;
+    border: 2px solid black;
+}
