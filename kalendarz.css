@@ -1,0 +1,46 @@
+body{
+    background-color: #A3966A;
+    margin-left: 5vh;
+    height: 95vh;
+    font-size: 120%;
+}
+
+div{
+    text-align: center;
+    height: 80%;
+    width: 25%;
+    float: left;
+    margin-top: 8vh;
+    border-radius: 2%;
+}
+
+.lewy{
+    background-color: #90553c;
+    margin-left: 150px;
+}
+
+.srodek{
+    background-color: #f0daae;
+    margin-left: 60px;
+}
+
+.prawy{
+    background-color: #482E1D;
+    margin-left: 60px;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+td{
+    font-weight: bold;
+}
+
+img {
+    margin-top: 8vh;
+    height: 320px;
+    width: 350px;
+    border-radius: 5%;
+}
