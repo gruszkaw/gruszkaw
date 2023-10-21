@@ -1,0 +1,11 @@
+.fix {
+    position: fixed;
+    top: 390px;
+    left: 0px;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
