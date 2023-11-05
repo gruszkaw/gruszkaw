@@ -1,0 +1,124 @@
+body {
+    background-color: #6b6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden;
+  }
+
+h1{
+    margin-left: 15vh;
+    color: #f7ede2;
+}
+  
+.halloween {
+    position: relative;
+}
+
+.halloween:before {
+    content:"";
+    position: absolute;
+    background-color: rgba(0,0,0,0.1);
+    width:140px;
+    height:20px;
+    border-radius:50%;
+    top:250px;
+}
+
+.ghost {
+    position: relative;
+    height:180px;
+    width:140px;
+    border-radius:100px 100px 0 0;
+    background-color: #f7ede2;
+    transition: .2s;
+  }
+  
+.ghost:before {
+    content:"";
+    position: absolute;
+    width:20px;
+    height:70px;
+    border-radius:30px;
+    background-color: #f7ede2;
+    top:130px;
+    box-shadow: 20px 40px #6b6b6b,40px 10px #f7ede2,60px 40px #6b6b6b,80px -10px #f7ede2,100px 40px #6b6b6b, 120px 0 #f7ede2;
+  }
+  
+.ghost:after {
+    content:"";
+    position: absolute;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    background-color: #333;
+    top:50px;
+    left:33px;
+    box-shadow:41px 0 #333;
+  }
+  
+.eyes {
+    position: absolute;
+    width:10px;
+    height:10px;
+    background-color: #f7ede2;
+    border-radius:50%;
+    top:70px;
+    left:80px;
+    z-index:1;
+    box-shadow: -24px 0 #f7ede2; 
+  }
+  
+
+.eyes:before, .eyes:after {
+    content:"";
+    position: absolute;
+    background-color: #f7ede2;
+    width:20px;
+    height:70px;
+    border-radius:30px;
+    top:0;
+  }
+  
+
+.eyes:before {
+    transform: rotate(30deg);
+    left:55px;
+  }
+  
+
+.eyes:after {
+    transform: rotate(-30deg);
+    left:-95px;
+  }
+
+.smile {
+    position: absolute;
+    width:40px;
+    height:20px;
+    border-radius:0 0 100px 100px;
+    background-color: #333;
+    top:95px;
+    left:53px;
+    transition: .2s;
+  }
+
+.text {
+    position:relative;
+    top:-100px;
+    font-size: 100px;
+    left:-40px;
+    color: #f7ede2;
+    display: none;
+    transition: .2s ease;
+  }
+
+.halloween:hover .smile {
+    border-radius: 100px 100px 0 0;
+    height:50px;
+  }
+  
+.halloween:hover .text {
+    display: block;
+  }
